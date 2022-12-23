@@ -1,0 +1,22 @@
+body { 
+    min-height: 100vh; 
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+}
+
+#gameboard .cell {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    align-items: center;
+    border: 1px solid grey;
+    
+}
